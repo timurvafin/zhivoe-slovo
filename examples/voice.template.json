@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "_comment": "Шаблон голосового паспорта. Скопируй в .humanizer/voice.json в корне рабочей директории и заполни под себя — или дай скиллу 2-3 абзаца своего письма, он откалибрует поля сам. Значения ниже — пример, не дефолт.",
+  "address": "ты",
+  "formality": 4,
+  "typography": {
+    "dash": "—",
+    "quotes": "«ёлочки»",
+    "yo_letter": "ad_hoc"
+  },
+  "rhythm": {
+    "sentence_len_avg": 14,
+    "variance": "high",
+    "paragraph_len_avg": 3
+  },
+  "voice": {
+    "irony": "occasional",
+    "person": "first",
+    "hedging": "minimal",
+    "personal_anecdotes": true
+  },
+  "preferred_phrases": [],
+  "banned_phrases": ["является", "в современном мире", "данный"],
+  "channel_default": "telegram"
+}
